@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div class = "instructions">
+    <div class="instructions">
         <h2>Please select two dates below. If dates fall on the same day of the week, the day will be highlighted in the
             colour green. If dates selected fall on different days of the week, the day for the first date will be
             highlighted in blue and the second day will be highlighted in red.</h2>
@@ -39,17 +39,18 @@
         </table>
 
         <br>
+        <div class="dates">
+            <div class="date1">
+                <label for="name">First date:</label>
+                <input type="date" id="firstDate">
+            </div>
 
-        <div class="date1">
-            <label for="name">First date:</label>
-            <input type="date" id="firstDate">
-        </div>
+            <br>
 
-        <br>
-
-        <div class="date2">
-            <label for="name">Second date:</label>
-            <input type="date" id="secondDate">
+            <div class="date2">
+                <label for="name">Second date:</label>
+                <input type="date" id="secondDate">
+            </div>
         </div>
     </div>
     <script src="matchingDays.js" charset="utf-8"></script>

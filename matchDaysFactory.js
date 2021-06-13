@@ -5,6 +5,7 @@ function matchingDaysFactory() {
 
     function setDate1(date) {
         date1 = new Date(date);
+        return date1;
     }
 
     function getDate1() {
@@ -15,6 +16,7 @@ function matchingDaysFactory() {
 
     function setDate2(date) {
         date2 = new Date(date);
+        return date2;
     }
 
     function getDate2() {
